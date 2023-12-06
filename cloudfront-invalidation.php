@@ -89,8 +89,8 @@ function add_custom_navbar_button() {
             array(
                 'id'    => 'custom_navbar_button',
                 'title' => $button_name,
-		'href'  => $button_url,
-		 'meta'   => array('target' => '_blank'), // Open in a new tab or window
+		'href'  => 'javascript:void(0)',
+//		 'meta'   => array('target' => '_blank'), // Open in a new tab or window
             )
 	);
 	 // Add jQuery to the footer of the admin page
